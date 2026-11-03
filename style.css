@@ -1,53 +1,11 @@
-/*Write your code below your name's comment. DO NOT EDIT OTHER PEOPLES WORK!!!*/
-/*Keiran*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Chloe*/
-/*Hai :3*/
-h1{
-    font-family: 'Kranky';
-    padding: 15px;
-    
-}
-p{
-    font-family: Mynerve;
-    font-size: 20px;
-    padding: 15px;
-}
-hr{
-    border: 5px;
-    border-color:black;
+@font-face {
+  font-family: 'Kranky';
+  src: url('Kranky.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Kyla*/
-/*what am i doing*/
-h1{
-    font-family: ;
-}
-hr{
-    
+body {
+  font-family: 'Kranky', cursive;
 }
