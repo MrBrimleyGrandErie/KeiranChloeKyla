@@ -1,6 +1,6 @@
 /*Write your code below your name's comment. DO NOT EDIT OTHER PEOPLES WORK!!!*/
 /*Keiran*/
-
+.myButtons{ width:158px; height: 50px; background-color: #A4866f ; color:#000000}
 
 
 
@@ -16,21 +16,55 @@
 /*Chloe*/
 /*Hai :3*/
 h1{
-    font-family: 'Kranky';
-    padding: 15px;
+   font-family: 'Kranky';
     
 }
+
 p{
     font-family: Mynerve;
     font-size: 20px;
-    padding: 15px;
-}
-hr{
-    border: 5px;
-    border-color:black;
+    
 }
 
+@font-face {
+  font-family: 'Kranky';
+  src: url('Kranky.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
+body {
+  font-family: 'Kranky', cursive;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  gap: 3px;
+  padding: 5px;
+}
+.container div {
+  background-color: white;
+  padding: 10px;
+}
+.container div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container div.menu {
+  grid-area: menu;
+}
+.container div.content {
+  grid-area: content;
+}
+.container div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
 
 
 
@@ -45,8 +79,9 @@ hr{
 
 /*Kyla*/
 /*what am i doing*/
-#myHeader{
-    border-width: 5px;
-    border-color: black;
-    border-bottom-style: solid;
+h1{
+    font-family: ;
+}
+hr{
+    
 }
