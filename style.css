@@ -79,9 +79,8 @@ body {
 
 /*Kyla*/
 /*what am i doing*/
-h1{
-    font-family: ;
-}
-hr{
-    
+
+.myHeader{
+    border-bottom-style: solid;
+    border-color: black;
 }
