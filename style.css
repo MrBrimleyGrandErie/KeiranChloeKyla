@@ -29,6 +29,17 @@ hr{
     border: 5px;
     border-color:black;
 }
+@font-face {
+  font-family: 'Kranky';
+  src: url('Kranky.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Kranky', cursive;
+}
 
 
 
