@@ -45,9 +45,8 @@ hr{
 
 /*Kyla*/
 /*what am i doing*/
-h1{
-    font-family: ;
-}
-hr{
-    
+#myHeader{
+    border-width: 5px;
+    border-color: black;
+    border-bottom-style: solid;
 }
