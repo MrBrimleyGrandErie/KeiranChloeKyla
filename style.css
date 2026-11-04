@@ -15,10 +15,6 @@
 
 /*Chloe*/
 /*Hai :3*/
-h1{
-   font-family: 'Kranky';
-    
-}
 
 p{
     font-family: Mynerve;
@@ -60,7 +56,9 @@ body {
 }
 .container div.content {
   grid-area: content;
+ 
 }
+
 .container div.footer {
   grid-area: footer;
   text-align: center;  
