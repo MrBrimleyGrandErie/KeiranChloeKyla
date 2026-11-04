@@ -53,10 +53,11 @@
 }
 .container div.img2 {
   grid-area: img2;
+  border:
 
 }
 #test{
-  width:110%;
+  width:50%;
   height:auto;
 }
 #test2{
