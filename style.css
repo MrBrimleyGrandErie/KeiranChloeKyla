@@ -15,17 +15,8 @@
 
 /*Chloe*/
 /*Hai :3*/
-h1{
-   font-family: 'Kranky';
-    
-}
 
-p{
-    font-family: Mynerve;
-    font-size: 20px;
-    
-}
-
+  
 @font-face {
   font-family: 'Kranky';
   src: url('Kranky.ttf') format('truetype');
@@ -34,16 +25,14 @@ p{
   font-display: swap;
 }
 
-body {
-  font-family: 'Kranky', cursive;
-}
+
 
 .container1 {
   display: grid;
   grid-template-areas:
     "header header"
     "menu content"
-    "footer footer";
+    "footer img2";
   gap: 3px;
   padding: 5px;
 }
@@ -60,6 +49,19 @@ body {
 }
 .container1 div.content {
   grid-area: content;
+ 
+}
+.container div.img2 {
+  grid-area: img2;
+
+}
+#test{
+  width:110%;
+  height:auto;
+}
+#test2{
+  width:110%;
+  height:auto;
 }
 .container1 div.footer {
   grid-area: footer;
