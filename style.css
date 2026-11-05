@@ -1,8 +1,16 @@
 /*Write your code below your name's comment. DO NOT EDIT OTHER PEOPLES WORK!!!*/
 /*Keiran*/
-.myButtons{ width:175px; height: 69px; background-color: #A4866f ; color:#000000; margin-left: 95px; margin-right: 95px;}
 
-
+.myButtons {
+  width: 175px; 
+  height: 69px; 
+  background-color: #A4866f; 
+  color: #000000;
+  margin: 0 12px; 
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
 
 
 
@@ -14,7 +22,6 @@
 
 /*Chloe*/
 /*Hai :3*/
-
   
 @font-face {
   font-family: 'Kranky';
@@ -24,58 +31,58 @@
   font-display: swap;
 }
 
-
-
 .container1 {
   display: grid;
   grid-template-areas:
     "header header"
     "menu content"
-    "footer img2";
-  gap: 3px;
+    "menu img2"
+    "footer footer";
+  grid-template-columns: 2fr 1fr; /* Gives more width to the text on the left, images on the right */
+  gap: 10px;
   padding: 5px;
 }
+
 .container1 div {
   background-color: white;
   padding: 10px;
 }
+
 .container1 div.header {
   grid-area: header;
   text-align: center;
 }
+
 .container1 div.menu {
   grid-area: menu;
-  font-size: 40px;
 }
+
 .container1 div.content {
   grid-area: content;
- 
+  text-align: right; /* Pushes the first image to the right of its grid cell */
 }
-.container div.img2 {
-  grid-area: img2;
-  
 
+.container1 div.img2 {
+  grid-area: img2;
+  text-align: right; /* Pushes the second image to the right of its grid cell */
 }
-#test{
-  width:10%;
-  height:auto;
-  margin: 13px;
-  border: solid 10px;
-  border-color: #BE9B7B;
-  
+
+#test {
+  width: 80%;
+  height: auto;
+  padding: 5px;
 }
-#test2{
-  width:11%;
-  height:auto;
-  margin: 10px;
-  border: solid 10px;
-  border-color: #BE9B7B;
+
+#test2 {
+  width: 80%;
+  height: auto;
+  padding: 5px;
 }
+
 .container1 div.footer {
   grid-area: footer;
   text-align: center;  
 }
-
 
 
 
