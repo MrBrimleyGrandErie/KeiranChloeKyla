@@ -46,6 +46,7 @@
 }
 .container1 div.menu {
   grid-area: menu;
+  font-size: 
 }
 .container1 div.content {
   grid-area: content;
@@ -57,12 +58,14 @@
 
 }
 #test{
-  width:50%;
+  width:10%;
   height:auto;
+  padding: 13px;
 }
 #test2{
-  width:110%;
+  width:11%;
   height:auto;
+  padding: 10px;
 }
 .container1 div.footer {
   grid-area: footer;
