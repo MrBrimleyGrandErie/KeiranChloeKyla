@@ -14,20 +14,8 @@
 
 /*Chloe*/
 /*Hai :3*/
-h1{
-    font-family: 'Kranky-Regular.ttf';
-    padding: 15px;
-    
-}
-p{
-    font-family: Mynerve;
-    font-size: 20px;
-    padding: 15px;
-}
-hr{
-    border: 5px;
-    border-color:black;
-}
+
+  
 @font-face {
   font-family: 'Kranky';
   src: url('Kranky.ttf') format('truetype');
@@ -36,11 +24,52 @@ hr{
   font-display: swap;
 }
 
-body {
-  font-family: 'Kranky', cursive;
+
+
+.container1 {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer img2";
+  gap: 3px;
+  padding: 5px;
 }
+.container1 div {
+  background-color: white;
+  padding: 10px;
+}
+.container1 div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container1 div.menu {
+  grid-area: menu;
+  font-size: 
+}
+.container1 div.content {
+  grid-area: content;
+ 
+}
+.container div.img2 {
+  grid-area: img2;
+  border:
 
-
+}
+#test{
+  width:10%;
+  height:auto;
+  padding: 13px;
+}
+#test2{
+  width:11%;
+  height:auto;
+  padding: 10px;
+}
+.container1 div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
 
 
 
@@ -54,3 +83,39 @@ body {
 
 
 /*Kyla*/
+/*what am i doing*/
+
+.myHeader{
+    border-bottom-style: solid;
+    border-color: black;
+    border-bottom-width: 5px;
+}
+
+/*taken from w3 schools*/
+.container1 {
+  display: grid;
+  grid-template-areas:
+    "image"
+    "menu content"
+    
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: white;
+  padding: 5px;
+}
+.container1 div {
+  background-color: white;
+  padding: 10px;
+}
+.container1 div.image {
+  text-align: right;
+  border: #A4866f;
+  padding: 10px;
+}
+.container1 div.menu {
+  text-align: left;
+  grid-area: menu;
+}
+.container1 div.content {
+  grid-area: content;
+}
