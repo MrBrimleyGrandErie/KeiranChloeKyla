@@ -1,7 +1,6 @@
 /*Write your code below your name's comment. DO NOT EDIT OTHER PEOPLES WORK!!!*/
 /*Keiran*/
-.myButtons{ width:158px; height: 50px; background-color: #A4866f ; color:#000000}
-
+.myButtons{ width:175px; height: 69px; background-color: #A4866f ; color:#000000; margin-left: 95px; margin-right: 95px;}
 
 
 
@@ -46,6 +45,7 @@
 }
 .container1 div.menu {
   grid-area: menu;
+  font-size: 40px;
 }
 .container1 div.content {
   grid-area: content;
@@ -53,15 +53,23 @@
 }
 .container div.img2 {
   grid-area: img2;
+  
 
 }
 #test{
-  width:110%;
+  width:10%;
   height:auto;
+  margin: 13px;
+  border: solid 10px;
+  border-color: #BE9B7B;
+  
 }
 #test2{
-  width:110%;
+  width:11%;
   height:auto;
+  margin: 10px;
+  border: solid 10px;
+  border-color: #BE9B7B;
 }
 .container1 div.footer {
   grid-area: footer;
