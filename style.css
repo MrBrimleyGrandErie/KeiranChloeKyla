@@ -102,16 +102,17 @@
   background-color: white;
   padding: 10px;
 }
-.containe2r div.header2 {
+.container2 div.header2 {
   grid-area: header;
   text-align: center;
 }
-.containe2r div.Yuriii {
+.container2 div.Yuriii {
   grid-area: header;
-  text-align: center;
+  text-align: right;
 }
 .container2 div.menu2 {
   grid-area: menu;
+  text-align:right;
 }
 .container2 div.content2 {
   grid-area: content;
