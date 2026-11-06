@@ -32,9 +32,9 @@
 
 
 
+/*-----------------------------------------------------------------------------------------------------*/
 /*Chloe*/
 /*Hai :3*/
-
   
 @font-face {
   font-family: 'Kranky';
@@ -44,64 +44,98 @@
   font-display: swap;
 }
 
-
-
-.container1 {
+.container {
   display: grid;
   grid-template-areas:
     "header header"
     "menu content"
-    "footer img2";
-  gap: 3px;
+    "menu img2"
+    "footer footer";
+  grid-template-columns: 2fr 1fr; /* Gives more width to the text on the left, images on the right */
+  gap: 10px;
   padding: 5px;
 }
-.container1 div {
+
+.container div {
   background-color: white;
   padding: 10px;
 }
-.container1 div.header {
+
+.container div.header {
   grid-area: header;
   text-align: center;
 }
-.container1 div.menu {
+
+.container div.menu {
   grid-area: menu;
-  font-size: 
 }
-.container1 div.content {
+
+.container div.content {
   grid-area: content;
- 
+  text-align: right; /* Pushes the first image to the right of its grid cell */
 }
+
 .container div.img2 {
   grid-area: img2;
-  border:
+  text-align: right; /* Pushes the second image to the right of its grid cell */
+}
+
+#test {
+  width: 25%;
+  height: auto;
+  padding: 5px;
+}
+
+#test2 {
+  width: 25%;
+  height: auto;
+  padding: 5px;
+}
+
+.container div.footer {
+  grid-area: footer;
+  text-align: center;  
 
 }
-#test{
-  width:10%;
-  height:auto;
-  padding: 13px;
+
+/*-----------------------------------------------------------------------------------------------*/
+
+.container2 {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "Yuriii"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  padding: 5px;
 }
-#test2{
-  width:11%;
-  height:auto;
+.container2 div {
+  background-color: white;
   padding: 10px;
 }
-.container1 div.footer {
+.containe2r div.header2 {
+  grid-area: header;
+  text-align: center;
+}
+.containe2r div.Yuriii {
+  grid-area: header;
+  text-align: center;
+}
+.container2 div.menu2 {
+  grid-area: menu;
+}
+.container2 div.content2 {
+  grid-area: content;
+}
+.container2 div.footer2 {
   grid-area: footer;
   text-align: center;  
 }
 
 
-
-
-
-
-
-
-
-
-
-
+/*------------------------------------------------------------------------------------------------------------*/
 /*Kyla*/
 /*what am i doing*/
 
@@ -109,8 +143,12 @@
     border-bottom-style: solid;
     border-color: black;
     border-bottom-width: 5px;
+    
 }
 
+#yp{
+  text-decoration: underline;
+}
 /*taken from w3 schools*/
 .container1 {
   display: grid;
