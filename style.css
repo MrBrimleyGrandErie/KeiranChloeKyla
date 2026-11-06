@@ -1,20 +1,22 @@
 /*Write your code below your name's comment. DO NOT EDIT OTHER PEOPLES WORK!!!*/
 /*Keiran*/
-.myButtons{ width:175px; height: 69px; background-color: #000000 ; color:#936b13; margin-left: 95px; margin-right: 95px;}
+.navButtons{ width:175px; height: 745px; background-color: #936b13 ; color:#000000; margin-left: 55px; margin-right: 55px;padding: 15px; border-radius: 5px;}
 
 .navbar {
 
   gap: 10px; 
   background-color: #b7902e;
-  padding: 10px;
+  padding: 25px;
 }
 
 .nav-button {
  
-  padding: 10px 20px;
-  background-color: #966d13;
+  padding: 15px 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #a17820;
   color: rgb(0, 0, 0);
-  border-color: #000000;
+  border-color: rgb(161, 36, 36);
   border-radius: 5px;
   font-family: sans-serif;
 }
@@ -22,6 +24,7 @@
 .nav-button:hover {
   background-color: #846715; 
 }
+
 
 
 
