@@ -3,8 +3,8 @@
 .navButtons{ width:175px; height: 745px; 
   background-color: #a4866f ;
   color:#000000;
-  margin-left: 55px;
-  margin-right: 55px;
+  margin-left: 61px;
+  margin-right: 61px;
   padding: 15px; 
   border-radius: 5px;
   border-top: 6px solid #515151;
@@ -12,24 +12,25 @@
   border-right: none;
   border-bottom: none;
 }
+S
 
 .navbar {
 
   gap: 10px; 
-  background-color: #fac594;
+  background-color: #b7902e;
   padding: 25px;
 }
 
-.nav-button { 
-  padding: 15px 10px; 
-  background-color: #a4866f; 
-  color: rgb(0, 0, 0); 
-  border-top: 4px solid #c10000;
-  border-left: 4px solid #e31f1f;
-  border-right: none;
-  border-bottom: none;
-  border-radius: 5px; 
-  font-family: sans-serif; 
+.nav-button {
+ 
+  padding: 15px 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #a17820;
+  color: rgb(0, 0, 0);
+  border-color: rgb(161, 36, 36);
+  border-radius: 5px;
+  font-family: sans-serif;
 }
 
 
@@ -37,14 +38,6 @@
 .nav-button:hover {
   background-color: #846715; 
 }
-
-
-
-
-
-
-
-
 
 
 
