@@ -31,7 +31,7 @@
   font-display: swap;
 }
 
-.container1 {
+.container {
   display: grid;
   grid-template-areas:
     "header header"
@@ -43,26 +43,26 @@
   padding: 5px;
 }
 
-.container1 div {
+.container div {
   background-color: white;
   padding: 10px;
 }
 
-.container1 div.header {
+.container div.header {
   grid-area: header;
   text-align: center;
 }
 
-.container1 div.menu {
+.container div.menu {
   grid-area: menu;
 }
 
-.container1 div.content {
+.container div.content {
   grid-area: content;
   text-align: right; /* Pushes the first image to the right of its grid cell */
 }
 
-.container1 div.img2 {
+.container div.img2 {
   grid-area: img2;
   text-align: right; /* Pushes the second image to the right of its grid cell */
 }
@@ -79,7 +79,7 @@
   padding: 5px;
 }
 
-.container1 div.footer {
+.container div.footer {
   grid-area: footer;
   text-align: center;  
 }
@@ -100,7 +100,16 @@
     border-bottom-style: solid;
     border-color: black;
     border-bottom-width: 5px;
-    
+}
+.content1{
+  text-align: left;
+}
+.image{
+  text-align: right;
+  border-style: solid;
+  border-color: #A4866f;
+  border-width: 40px;
+  border-length: 40px;
 }
 
 #yp{
@@ -111,7 +120,8 @@
   display: grid;
   grid-template-areas:
     "image"
-    "menu content"
+    "menu"
+    "content"
     
   grid-template-columns: 1fr 3fr;
   gap: 3px;
@@ -124,13 +134,19 @@
 }
 .container1 div.image {
   text-align: right;
-  border: #A4866f;
-  padding: 10px;
+  border-style: solid;
+  border-color: #A4866f;
+  border-width: 40px;
+  border-length: 40px;
+  
+  /*240 by 290 (image dimiens.)*/
+
 }
-.container1 div.menu {
+.container1 div.menu1 {
   text-align: left;
   grid-area: menu;
 }
-.container1 div.content {
+.container1 div.content1 {
   grid-area: content;
+  text-align: left;
 }
