@@ -68,6 +68,7 @@
 
 .container div.menu {
   grid-area: menu;
+  font-size: 30px;
 }
 
 .container div.content {
@@ -83,13 +84,13 @@
 #test {
   width: 25%;
   height: auto;
-  padding: 5px;
+  border: solid 3px #BE9B7B; 
 }
 
 #test2 {
   width: 25%;
   height: auto;
-  padding: 5px;
+  border: solid 3px #BE9B7B; 
 }
 
 .container div.footer {
@@ -112,7 +113,6 @@
   padding: 5px;
 }
 .container2 div {
-  background-color: white;
   padding: 10px;
 }
 .container2 div.header2 {
@@ -120,12 +120,12 @@
   text-align: center;
 }
 .container2 div.Yuriii {
-  grid-area: header;
-  text-align: right;
+  grid-area: Yuriii;
+  text-align: left;
 }
 .container2 div.menu2 {
   grid-area: menu;
-  text-align:right;
+  text-align: left;
 }
 .container2 div.content2 {
   grid-area: content;
