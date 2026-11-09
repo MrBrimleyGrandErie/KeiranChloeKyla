@@ -1,23 +1,38 @@
 /*Write your code below your name's comment. DO NOT EDIT OTHER PEOPLES WORK!!!*/
 /*Keiran*/
-.myButtons{ width:175px; height: 69px; background-color: #000000 ; color:#936b13; margin-left: 95px; margin-right: 95px;}
+.navButtons{ width:175px; height: 745px; 
+  background-color: #a4866f ;
+  color:#000000;
+  margin-left: 55px;
+  margin-right: 55px;
+  padding: 15px; 
+  border-radius: 5px;
+  border-top: 6px solid #515151;
+  border-left: 6px solid #737373;
+  border-right: none;
+  border-bottom: none;
+}
 
 .navbar {
 
   gap: 10px; 
-  background-color: #b7902e;
-  padding: 10px;
+  background-color: #fac594;
+  padding: 25px;
 }
 
-.nav-button {
- 
-  padding: 10px 20px;
-  background-color: #966d13;
-  color: rgb(0, 0, 0);
-  border-color: #000000;
-  border-radius: 5px;
-  font-family: sans-serif;
+.nav-button { 
+  padding: 15px 10px; 
+  background-color: #a4866f; 
+  color: rgb(0, 0, 0); 
+  border-top: 4px solid #c10000;
+  border-left: 4px solid #e31f1f;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 5px; 
+  font-family: sans-serif; 
 }
+
+
 
 .nav-button:hover {
   background-color: #846715; 
