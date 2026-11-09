@@ -68,7 +68,8 @@
 
 .container div.menu {
   grid-area: menu;
-  font-size: 30px;
+  font-size: 25px;
+  font-family: Kranky;
 }
 
 .container div.content {
@@ -82,15 +83,17 @@
 }
 
 #test {
-  width: 25%;
+  width: 30%;
   height: auto;
-  border: solid 3px #BE9B7B; 
+  border: solid 10px #BE9B7B; 
+  margin:15px;
 }
 
 #test2 {
-  width: 25%;
+  width: 30%;
   height: auto;
-  border: solid 3px #BE9B7B; 
+  border: solid 10px #BE9B7B; 
+  margin: 15px;
 }
 
 .container div.footer {
@@ -106,7 +109,7 @@
   grid-template-areas:
     "header header"
     "menu content"
-    "Yuriii"
+    "Yuriii BUNBUN"
     "footer footer";
   grid-template-columns: 1fr 3fr;
   gap: 3px;
@@ -121,7 +124,7 @@
 }
 .container2 div.Yuriii {
   grid-area: Yuriii;
-  text-align: left;
+  text-align: center;
 }
 .container2 div.menu2 {
   grid-area: menu;
@@ -130,10 +133,20 @@
 .container2 div.content2 {
   grid-area: content;
 }
+.container2 div.BUNBUN {
+  grid-area: content;
+}
 .container2 div.footer2 {
   grid-area: footer;
   text-align: center;  
 }
+#Peanutbutterhour{
+  text-align:center;
+}
+#Iluvbunbun{
+  text-align: "ri";
+}
+
 /**/
 
 /*------------------------------------------------------------------------------------------------------------*/
