@@ -17,7 +17,7 @@
 .navbar {
 
   gap: 10px; 
-  background-color: #b7902e;
+  background-color: #fac594;
   padding: 25px;
 }
 
@@ -36,10 +36,27 @@
 
 
 .nav-button:hover {
-  background-color: #15842d; 
+  background-color: #000000; 
 }
 
+.content-wrapper {
+    display: flex;            
+    align-items: center;       
+    gap: 40px;                 
+}
 
+.text-content {
+    flex: 1;                 
+}
+
+.image-content img {          
+    border-radius: 8px;    
+    width: 723;
+    height: 423   
+}
+.p {
+  font-family:"Cochin";
+}
 
 /*-----------------------------------------------------------------------------------------------------*/
 /*Chloe*/
