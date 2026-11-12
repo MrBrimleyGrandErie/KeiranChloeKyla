@@ -1,18 +1,20 @@
 /*Write your code below your name's comment. DO NOT EDIT OTHER PEOPLES WORK!!!*/
 /*Keiran*/
+
+
 .navButtons{ width:175px; height: 745px; 
   background-color: #a4866f ;
   color:#000000;
-  margin-left: 61px;
-  margin-right: 61px;
+  margin-left: 58px;
+  margin-right: 58px;
   padding: 15px; 
   border-radius: 5px;
   border-top: 6px solid #515151;
   border-left: 6px solid #737373;
   border-right: none;
   border-bottom: none;
-}
 
+}
 
 .navbar {
 
@@ -21,6 +23,7 @@
   padding: 25px;
 }
 
+/*
 .nav-button {
  
   padding: 15px 20px;
@@ -32,32 +35,46 @@
   border-radius: 5px;
   font-family: sans-serif;
 }
-
-
+*/
 
 .nav-button:hover {
   background-color: #000000; 
 }
 
-.content-wrapper {
-    display: flex;            
-    align-items: center;       
-    gap: 40px;                 
-}
 
-.text-content {
-    flex: 1;                 
-}
-
-.image-content img {          
-    border-radius: 8px;    
-    width: 723;
-    height: 423   
-}
 .p {
   font-family:"Cochin";
 }
-
+.container div{
+  display: grid;
+  grid-template-areas:
+    "head"
+    "tent"
+    "feet";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+}
+.holder div {
+  background-color: white;
+  padding: 10px;
+  
+}
+.holder div.head {
+  grid-area: header ;
+  text-align: center;
+}
+.holder div.men {
+  grid-area: menu;
+}
+.holder div.tent {
+  grid-area: content;
+}
+.holder div.feet {
+  grid-area: footer;
+  text-align: center;  
+}
 /*-----------------------------------------------------------------------------------------------------*/
 /*Chloe*/
 /*Hai :3*/
